@@ -1,8 +1,8 @@
-'''
+"""
 1. Zwykłe dodawanie
-- po prostu wyświetla wynik,
+— po prostu wyświetla wynik,
 oryginalne zmienne zostają nietknięte
-'''
+"""
 # a = 10
 # b = 5
 # print(a + b)
@@ -25,10 +25,10 @@ Programiści tak piszą z lenistwa.'''
 # print(a)
 
 '''1. Zwykłe mnożenie - po prostu wyświetla wynik, 
-oryginalne zmienne zostają nietknięte '''
-c = 6
-d = 2
-print(c * d)
+oryginalne zmienne zostają nietknięte'''
+# c = 6
+# d = 2
+# print(c * d)
 
 '''
 2. Nadpisywanie zmiennej (pełny zapis) 
@@ -89,3 +89,22 @@ Wyświetli: 3'''
 # c = 6
 # c //= 2
 # print(c)
+
+"""
+Znak % (modulo) - zwraca resztę z dzielenia.
+Bardzo przydatne do sprawdzania np. czy liczba jest parzysta.
+"""
+''' 1. Zwykłe modulo. Wyświetli: 1 (bo w 5 mieszczą się dwie dwójki i zostaje 1 reszty)'''
+# a = 5
+# b = 2
+# print(a % b)
+
+'''2. Nadpisywanie zmiennej (pełny zapis). Wyświetli: 1'''
+# a = 5
+# a = a % 2
+# print(a) 
+
+'''3. Nadpisywanie zmiennej (skrócony zapis). Wyświetli: 1'''
+# a = 5
+# a %= 2
+# print(a)
